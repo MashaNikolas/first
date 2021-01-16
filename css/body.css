@@ -1,0 +1,22 @@
+.mw-100 {
+    width: 100%;
+}
+
+.advantages_container {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advantages_item {
+    width: 30%;
+}
