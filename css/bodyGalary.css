@@ -1,0 +1,23 @@
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.photo-itm {
+    width: 25%;
+    margin: 5px;
+}
+
+.photo-itm img {
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.7;
+}
+
+.photo-itm img:hover {
+    opacity: 1;
+}

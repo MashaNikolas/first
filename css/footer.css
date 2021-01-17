@@ -15,6 +15,7 @@ footer a {
 
 footer p {
     color: white;
+    font-size: 10px;
 }
 
 footer nav a:hover {
@@ -38,8 +39,8 @@ footer nav a:hover {
 }
 
 .social-item {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -50,5 +51,5 @@ footer nav a:hover {
 }
 
 .social-item a {
-    font-size: 30px;
+    font-size: 20px;
 }

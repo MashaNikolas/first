@@ -27,6 +27,10 @@
     .advantages_item {
         width: 45%;
     }
+    .photo-itm {
+        width: 45%;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -35,5 +39,16 @@
     }
     .advantages_item {
         width: 100%;
+    }
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: auto;
+    }
+    .photo-itm {
+        width: 70%;
+        margin: 0 auto;
     }
 }
