@@ -31,6 +31,9 @@
         width: 45%;
         margin-left: 10px;
     }
+    .blog-container {
+        width: 28rem;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -50,5 +53,8 @@
     .photo-itm {
         width: 70%;
         margin: 0 auto;
+    }
+    .blog-container {
+        width: 20rem;
     }
 }
