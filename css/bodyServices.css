@@ -1,0 +1,22 @@
+    .services {
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    .services img {
+        max-width: 100%;
+    }
+    
+    .services_container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .services_container_item {
+        margin: 20px;
+        flex-basis: 300px;
+        flex-grow: 1;
+    }

@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/heder.css">
-    <link rel="stylesheet" href="css/bodyMain.css">
+    <link rel="stylesheet" href="css/bodyContact.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-
     <div class="wrap">
         <header>
             <div class="logo">
@@ -35,27 +34,15 @@
             </nav>
         </header>
         <main>
-            <div><img src="img/main_fon.jpg" alt="" class="mw-100"></div>
+            <form class="form">
+                <p><input type="text" name="name" class="feedback-input" placeholder="Name" id="name"></p>
+                <p><input type="email" name="email" class="feedback-input" placeholder="Email" id="email"></p>
+                <p><input type="password" name="password" class="feedback-input" placeholder="Password" id="password"></p>
+                <p><textarea name="text" id="comment" placeholder="Message" class="feedback-input"></textarea></p>
+                <input type="submit" value="Submit" class="button-submit">
+                <div class="ease"></div>
+            </form>
 
-            <div class="advantages_container">
-                <div class="advantages">
-                    <div class="advantages_item">
-                        <img src="img/abzath.png" alt="">
-                        <h2> Тюльпани </h2>
-                        <p>Тюльпани, одні з найпоширеніших весняних квітів–свідки багатовікової історії людства та навіть винуватці драм і банкрутства.</p>
-                    </div>
-                    <div class="advantages_item">
-                        <img src="img/Rosa.png" alt="">
-                        <h2> Троянди </h2>
-                        <p>Троянди це найпрекрасніші, красиві і запашні квіти, які стали своєрідним символом любові, романтичності і ніжності в усьому світі.</p>
-                    </div>
-                    <div class="advantages_item">
-                        <img src="img/krasivye.png" alt="">
-                        <h2> Піони </h2>
-                        <p>Півонії вважаються символом багатства, щедрості та великого кохання. Ці квіти виглядають яскраво, пишно і велично.</p>
-                    </div>
-
-                </div>
         </main>
         <footer>
             <nav>
@@ -96,11 +83,10 @@
 
         </footer>
 
-        </div>
+    </div>
 
 
-
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
