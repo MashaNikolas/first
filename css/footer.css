@@ -31,7 +31,7 @@ footer nav a:hover {
 
 .footerlogo {
     flex-basis: 100px;
-    background-image: url('../img/footer.png');
+    background-image: url('../img/footer/footer.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
