@@ -38,6 +38,28 @@
 
 .slider-item {
     width: 70%;
+    margin: 0 20px;
+}
+
+#slider i {
+    font-size: 60px;
+}
+
+#slider i.close {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    background: none;
+    border: none;
+    display: none;
+}
+
+#slider i:hover {
+    color: rgb(97, 97, 97);
+}
+
+#slider i:active {
+    color: rgb(202, 196, 196);
 }
 
 .slider-item img {

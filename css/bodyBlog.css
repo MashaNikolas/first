@@ -7,11 +7,6 @@
     width: 50rem;
 }
 
-.blog-container a:hover {
-    border-color: chartreuse;
-    color: chartreuse;
-}
-
 .blog-cover {
     background: url(../img/blog/abstract-background-of-flowers.jpg);
     background-size: cover;
@@ -26,12 +21,14 @@
 }
 
 .blog-title h1 a {
-    color: salmon;
+    color: black;
     font-weight: 100;
+    text-align: center;
 }
 
 .blog-text p {
     columns: #4d4d4d;
+    line-height: 2;
 }
 
 .blog-tags ul {
@@ -90,4 +87,5 @@
     border: 1px solid #999999;
     border-radius: 3px;
     padding: 0 .5rem;
+    line-height: 24px;
 }
