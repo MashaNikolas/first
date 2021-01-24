@@ -54,6 +54,11 @@
     display: none;
 }
 
+.right-slide,
+.left-slide {
+    display: none;
+}
+
 #slider i:hover {
     color: rgb(97, 97, 97);
 }

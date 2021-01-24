@@ -20,13 +20,13 @@ footer a {
     margin-left: 10px;
 }
 
+footer nav a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
 footer p {
     color: white;
     font-size: 10px;
-}
-
-footer nav a:hover {
-    border-bottom: 1px solid white;
 }
 
 .footerlogo {

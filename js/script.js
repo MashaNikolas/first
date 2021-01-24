@@ -1,11 +1,18 @@
-let menu = document.getElementById('menu');
+let menu = document.querySelector('#menu');
+let topnav = document.querySelector('.topnav');
 
-menu.onclick = function() {
-    let myTopnav = document.getElementById('myTopnav');
+menu.addEventListener('click', (e) => {
+    e.stopPropagation();
+    topnav.classList.toggle('toggle');
 
-    if (myTopnav.className === "topnav") {
-        myTopnav.className += ' responsive'
+})
+window.addEventListener('resize', () => {
+    console.log('size window = ', window.innerWidth);
+    if (window.innerWidth > 768) {
+        topnav.classList.remove('toggle')
     }
-    console.log(myTopnav.className, " = myTopnav className");
+})
 
-}
+window.addEventListener('click', () => {
+    topnav.classList.remove('toggle');
+})

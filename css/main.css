@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    border-bottom: 2px solid transparent;
+}
+
+nav #menu {
+    display: none;
+}
+
 li {
     text-decoration: none;
     list-style: none;
